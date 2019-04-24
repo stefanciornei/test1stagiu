@@ -1,0 +1,79 @@
+Item1:
+Retesting is testing the same functionality after it has been updated or bugs fixed. It means that it has been tested at least once before retesting
+Regression is testing different functionalities of the system after every release. It is about checking if a new functionality did not affect the whole system previuosly tested/implemented.
+
+Item2:
+They all make the system malfunction, but the difference is when they are discovered or if they are a showstopper
+ERROR is a mistake or a misunderstanding in coding or requirements
+DEFECT is an error found after implementation. It is about something already in use, not in production
+A BUG is an error or defect that causes the malfunction, mostly during testing phase
+FAULT is an incorrect step that causes the system to perform in an undesired manner
+FAILURE is when a software does not satisfy its functionality
+
+Item3:
+Agile works in sprints, commonly of 2,3 weeks or something like this and after every sprint there is a deliberable. That means that devs start coding and at the same time testers begin writing tests and they have a deliverable functionality at the end of the sprint
+The V-model is similar to cascade-model, but the testing team begin work at the start of the project. Obviously, some of the testing can be done only after coding, but some tests cand be written before.
+
+Item4:
+Black box is when you do not have access to code. Examples:
+Equivalence Partitioning, Boundary Value Analysis.
+White box is the opposite, you have access to the code
+open-source software. the most obvious is unit testing, integration testing
+
+Item5: Testcases
+
+
+
+TEST PLAN LOGIN FORM
+1. valid email and valid password
+2. valid email with invalid password
+3. invalid email valid password
+4. invalid email invalid password
+5. valid email empty password
+6. empty email empty password
+7. Functional button for forgot your password
+8. facebook login
+9. g+ login
+10. linkedin login
+11. check validations of email format, 
+12. check password restrictions
+13. check forgot your password button
+
+TESTPLAN SIGN UP form (Create Account)
+1. Enter valid name, email, password
+2. check validations for name, emmail format
+3. check password restrictions
+4. invalid cases
+
+TestCase Valid login
+1. navigate to login page
+2. enter valid email
+3. enter valid password
+4. click login
+Expected result: successful login message.
+
+TestCase Valid SIGNUP
+1. enter name xxxxxxx
+2. enter email yyyyyy
+3. click signup
+expected result: account created successfully
+
+
+
+Item6: 
+Bug Report - check if it has already been reported, include the report in the appropiate user story
+
+Title: Login not possible using valid credentials
+Description: Used valid email and valid password and can not login
+Environment: Chrome xxxxxxx
+Steps:
+1. navigate to login page xxxxxxxx
+2. enter the email xxxxxxxx
+3. enter the password yyyyyy
+3. click the signin button
+
+Actual result: a message stating incorrect password
+Expected result: succesful login
+
+set severity very high
+set priority very high
